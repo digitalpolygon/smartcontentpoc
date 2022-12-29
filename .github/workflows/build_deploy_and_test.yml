@@ -190,6 +190,9 @@ jobs:
           eval `ssh-agent -s`
           ssh-add ../private.key
           source $BASH_ENV
+          git config --global --add safe.directory /__w/$CI_PROJECT_NAME/$CI_PROJECT_NAME
+          git config --global --add safe.directory /__w/$GITHUB_REPOSITORY/$GITHUB_REPOSITORY
+          git config --global --add safe.directory /__w/${{ github.event.repository.name }}/${{ github.event.repository.name }}
           ./.ci/deploy/pantheon/dev-multidev
 
   behat_test:
