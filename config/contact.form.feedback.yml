@@ -1,0 +1,14 @@
+uuid: 2df3ee86-4b94-4fd6-93dc-ff87a7bfe573
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - venkatesh.adapa@pronovix.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
