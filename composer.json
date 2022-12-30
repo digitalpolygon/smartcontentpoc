@@ -99,6 +99,11 @@
         },
         "build-env": {
             "export-configuration": "drush config-export --yes"
+        },
+        "patches": {
+            "drupal/smart_content": {
+                "Fix Add segment error [#3210720-12]": "https://www.drupal.org/files/issues/2022-03-23/smart_content-3210720-12.patch"
+            }
         }
     },
     "autoload": {
