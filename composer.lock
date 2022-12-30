@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b531a2cb41e77780e567f9541b8b594",
+    "content-hash": "8041e94fb159be5d5b3d92db1617f296",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1255,6 +1255,87 @@
             "time": "2022-05-31T18:46:25+00:00"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/admin_toolbar.git",
+                "reference": "3.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.3.0.zip",
+                "reference": "3.3.0",
+                "shasum": "8e61fba9c9d83a94a844cff96d00871878a7eb98"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "require-dev": {
+                "drupal/admin_toolbar_tools": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.3.0",
+                    "datestamp": "1669567837",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Wilfrid Roze (eme)",
+                    "homepage": "https://www.drupal.org/u/eme",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Romain Jarraud (romainj)",
+                    "homepage": "https://www.drupal.org/u/romainj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "email": "adriancid@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mohamed Anis Taktak (matio89)",
+                    "homepage": "https://www.drupal.org/u/matio89",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "matio89",
+                    "homepage": "https://www.drupal.org/user/2320090"
+                },
+                {
+                    "name": "Musa.thomas",
+                    "homepage": "https://www.drupal.org/user/1213824"
+                },
+                {
+                    "name": "romainj",
+                    "homepage": "https://www.drupal.org/user/370706"
+                }
+            ],
+            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "keywords": [
+                "Drupal",
+                "Toolbar"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/admin_toolbar",
+                "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.5.0",
             "source": {
@@ -1646,6 +1727,66 @@
                 }
             ],
             "time": "2022-11-23T19:04:35+00:00"
+        },
+        {
+            "name": "drupal/smart_content",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/smart_content.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/smart_content-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "38c3834f99d36e806869dd68090dfc41408a3774"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/block_field": "~1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1611713171",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Lander (michaellander)",
+                    "homepage": "https://www.drupal.org/u/michaellander",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Gurwinder Antal (gantal)",
+                    "homepage": "https://www.drupal.org/u/gantal",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Nick Switzer (switzern)",
+                    "homepage": "https://www.drupal.org/u/switzern",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "Provides an API and toolset for personalizing user experiences for anonymous and authenticated users.",
+            "homepage": "https://drupal.org/project/smart_content",
+            "support": {
+                "source": "https://cgit.drupalcode.org/smart_content",
+                "issues": "https://drupal.org/project/issues/smart_content",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
         },
         {
             "name": "drush-ops/behat-drush-endpoint",
@@ -11660,7 +11801,7 @@
     "platform": [],
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.4"
+        "php": "8.1.13"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
