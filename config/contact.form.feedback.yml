@@ -1,4 +1,4 @@
-uuid: 2df3ee86-4b94-4fd6-93dc-ff87a7bfe573
+uuid: 9122950e-55fb-4d28-8a5f-94309a516625
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - venkatesh.adapa@pronovix.com
+  - admin@example.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

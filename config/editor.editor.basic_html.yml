@@ -1,4 +1,4 @@
-uuid: 8fa997ba-05b9-43ed-8813-e90aabe1e312
+uuid: 162b4070-10f0-48ec-a0db-291914a04922
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor5
 _core:
-  default_config_hash: uXAqOeMiQVnzE5yk7-v1DsBagmkCI2h_q5WAf0bir-o
+  default_config_hash: GXR0M4v7hJDoS_08fYBnU6lERPSOrDgzuoF_6iy4PMg
 format: basic_html
 editor: ckeditor5
 settings:
@@ -22,12 +22,12 @@ settings:
       - numberedList
       - '|'
       - blockQuote
-      - drupalInsertImage
+      - drupalMedia
       - '|'
       - heading
-      - code
       - '|'
       - sourceEditing
+      - '|'
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -45,22 +45,19 @@ settings:
         - '<a hreflang>'
         - '<blockquote cite>'
         - '<ul type>'
-        - '<ol start type>'
+        - '<ol type start>'
         - '<h2 id>'
         - '<h3 id>'
         - '<h4 id>'
         - '<h5 id>'
         - '<h6 id>'
-    ckeditor5_list:
-      reversed: false
-      startIndex: true
-    ckeditor5_imageResize:
-      allow_resize: true
+        - '<img src alt data-entity-type data-entity-uuid data-align data-caption width height>'
+        - '<drupal-media data-view-mode title>'
 image_upload:
-  status: true
+  status: false
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
