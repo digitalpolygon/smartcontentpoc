@@ -42,4 +42,7 @@ Get your Pantheon machine token: a. Log in to your Pantheon Dashboard and Genera
    - This will setup the site in local and can be accessed at https://smartcontentpoc.ddev.site
    - Click on this link, and finish the new site setup for first time.
 7. Sync your local db and files from Pantheon dev environment
-   - Run ddev pull pantheon. This command will download the Pantheon database and files and bring them into the local DDEV environment. You should now be able to access the project locally.
+   - Run ```ddev pull pantheon``` This command will download the Pantheon database and files and bring them into the local DDEV environment. You should now be able to access the project locally.
+   ```sh
+    ddev pull pantheon
+   ```
